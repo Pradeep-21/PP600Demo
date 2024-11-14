@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6502AC2A2C7470640038AB70 /* LEDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6502AC292C7470640038AB70 /* LEDSDK.framework */; };
+		65A22FF02C74827700F347D1 /* 12x12.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 65A22FEF2C74827700F347D1 /* 12x12.DZK */; };
+		65AD081C2CCB7D5400C35D5D /* OTAV_1.11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 65AD081B2CCB7D5400C35D5D /* OTAV_1.11.bin */; };
+		771FC5ED29B32AF100DF22E5 /* LEDSDKCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FC5EB29B32AF100DF22E5 /* LEDSDKCaller.swift */; };
+		771FC5F129B32B0700DF22E5 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FC5EE29B32B0700DF22E5 /* MainController.swift */; };
+		771FC5F229B32B0700DF22E5 /* OTAUpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FC5EF29B32B0700DF22E5 /* OTAUpdateController.swift */; };
+		771FC5F329B32B0700DF22E5 /* test+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FC5F029B32B0700DF22E5 /* test+ext.swift */; };
+		771FC5FC29B32C7F00DF22E5 /* 46×46.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5F529B32C7F00DF22E5 /* 46×46.DZK */; };
+		771FC5FD29B32C7F00DF22E5 /* buzzlightyear.gif in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5F629B32C7F00DF22E5 /* buzzlightyear.gif */; };
+		771FC5FE29B32C7F00DF22E5 /* 16×16.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5F729B32C7F00DF22E5 /* 16×16.DZK */; };
+		771FC5FF29B32C7F00DF22E5 /* 22×22.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5F829B32C7F00DF22E5 /* 22×22.DZK */; };
+		771FC60029B32C7F00DF22E5 /* 64×64.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5F929B32C7F00DF22E5 /* 64×64.DZK */; };
+		771FC60129B32C7F00DF22E5 /* 32×21.DZK in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5FA29B32C7F00DF22E5 /* 32×21.DZK */; };
+		771FC60229B32C7F00DF22E5 /* Charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 771FC5FB29B32C7F00DF22E5 /* Charmander.png */; };
+		77AA71AE29B2FB62004BD797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA71AD29B2FB62004BD797 /* AppDelegate.swift */; };
+		77AA71B729B2FB62004BD797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AA71B629B2FB62004BD797 /* Assets.xcassets */; };
+		77AA71BA29B2FB62004BD797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AA71B829B2FB62004BD797 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6502AC292C7470640038AB70 /* LEDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LEDSDK.framework; sourceTree = "<group>"; };
+		65A22FEF2C74827700F347D1 /* 12x12.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12x12.DZK; sourceTree = "<group>"; };
+		65AD081B2CCB7D5400C35D5D /* OTAV_1.11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = OTAV_1.11.bin; sourceTree = "<group>"; };
+		771FC5EB29B32AF100DF22E5 /* LEDSDKCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEDSDKCaller.swift; sourceTree = "<group>"; };
+		771FC5EE29B32B0700DF22E5 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		771FC5EF29B32B0700DF22E5 /* OTAUpdateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTAUpdateController.swift; sourceTree = "<group>"; };
+		771FC5F029B32B0700DF22E5 /* test+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "test+ext.swift"; sourceTree = "<group>"; };
+		771FC5F529B32C7F00DF22E5 /* 46×46.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = "46×46.DZK"; sourceTree = "<group>"; };
+		771FC5F629B32C7F00DF22E5 /* buzzlightyear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = buzzlightyear.gif; sourceTree = "<group>"; };
+		771FC5F729B32C7F00DF22E5 /* 16×16.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16×16.DZK"; sourceTree = "<group>"; };
+		771FC5F829B32C7F00DF22E5 /* 22×22.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = "22×22.DZK"; sourceTree = "<group>"; };
+		771FC5F929B32C7F00DF22E5 /* 64×64.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = "64×64.DZK"; sourceTree = "<group>"; };
+		771FC5FA29B32C7F00DF22E5 /* 32×21.DZK */ = {isa = PBXFileReference; lastKnownFileType = file; path = "32×21.DZK"; sourceTree = "<group>"; };
+		771FC5FB29B32C7F00DF22E5 /* Charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Charmander.png; sourceTree = "<group>"; };
+		77AA71AA29B2FB62004BD797 /* LEDSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AA71AD29B2FB62004BD797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77AA71B629B2FB62004BD797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77AA71B929B2FB62004BD797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77AA71BB29B2FB62004BD797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77AA71A729B2FB62004BD797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6502AC2A2C7470640038AB70 /* LEDSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771FC5E929B32AF100DF22E5 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				771FC5EB29B32AF100DF22E5 /* LEDSDKCaller.swift */,
+				6502AC292C7470640038AB70 /* LEDSDK.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		771FC5F429B32C7F00DF22E5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				771FC5F529B32C7F00DF22E5 /* 46×46.DZK */,
+				771FC5F729B32C7F00DF22E5 /* 16×16.DZK */,
+				771FC5F829B32C7F00DF22E5 /* 22×22.DZK */,
+				771FC5F929B32C7F00DF22E5 /* 64×64.DZK */,
+				771FC5FA29B32C7F00DF22E5 /* 32×21.DZK */,
+				65A22FEF2C74827700F347D1 /* 12x12.DZK */,
+				771FC5F629B32C7F00DF22E5 /* buzzlightyear.gif */,
+				771FC5FB29B32C7F00DF22E5 /* Charmander.png */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		77AA71A129B2FB62004BD797 = {
+			isa = PBXGroup;
+			children = (
+				77AA71AC29B2FB62004BD797 /* LEDSDKDemo */,
+				77AA71AB29B2FB62004BD797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77AA71AB29B2FB62004BD797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77AA71AA29B2FB62004BD797 /* LEDSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77AA71AC29B2FB62004BD797 /* LEDSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				771FC5EE29B32B0700DF22E5 /* MainController.swift */,
+				771FC5EF29B32B0700DF22E5 /* OTAUpdateController.swift */,
+				771FC5F029B32B0700DF22E5 /* test+ext.swift */,
+				77AA71AD29B2FB62004BD797 /* AppDelegate.swift */,
+				771FC5E929B32AF100DF22E5 /* SDK */,
+				77AA71C129B2FC2F004BD797 /* Supporting Files */,
+			);
+			path = LEDSDKDemo;
+			sourceTree = "<group>";
+		};
+		77AA71C129B2FC2F004BD797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65AD081B2CCB7D5400C35D5D /* OTAV_1.11.bin */,
+				771FC5F429B32C7F00DF22E5 /* Files */,
+				77AA71B629B2FB62004BD797 /* Assets.xcassets */,
+				77AA71B829B2FB62004BD797 /* LaunchScreen.storyboard */,
+				77AA71BB29B2FB62004BD797 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77AA71A929B2FB62004BD797 /* LEDSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77AA71BE29B2FB62004BD797 /* Build configuration list for PBXNativeTarget "LEDSDKDemo" */;
+			buildPhases = (
+				77AA71A629B2FB62004BD797 /* Sources */,
+				77AA71A729B2FB62004BD797 /* Frameworks */,
+				77AA71A829B2FB62004BD797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDSDKDemo;
+			productName = LEDSDKDemo;
+			productReference = 77AA71AA29B2FB62004BD797 /* LEDSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77AA71A229B2FB62004BD797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					77AA71A929B2FB62004BD797 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 77AA71A529B2FB62004BD797 /* Build configuration list for PBXProject "LEDSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77AA71A129B2FB62004BD797;
+			productRefGroup = 77AA71AB29B2FB62004BD797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77AA71A929B2FB62004BD797 /* LEDSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77AA71A829B2FB62004BD797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A22FF02C74827700F347D1 /* 12x12.DZK in Resources */,
+				771FC5FC29B32C7F00DF22E5 /* 46×46.DZK in Resources */,
+				771FC5FF29B32C7F00DF22E5 /* 22×22.DZK in Resources */,
+				771FC5FE29B32C7F00DF22E5 /* 16×16.DZK in Resources */,
+				771FC60029B32C7F00DF22E5 /* 64×64.DZK in Resources */,
+				65AD081C2CCB7D5400C35D5D /* OTAV_1.11.bin in Resources */,
+				771FC5FD29B32C7F00DF22E5 /* buzzlightyear.gif in Resources */,
+				771FC60229B32C7F00DF22E5 /* Charmander.png in Resources */,
+				77AA71BA29B2FB62004BD797 /* LaunchScreen.storyboard in Resources */,
+				77AA71B729B2FB62004BD797 /* Assets.xcassets in Resources */,
+				771FC60129B32C7F00DF22E5 /* 32×21.DZK in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77AA71A629B2FB62004BD797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771FC5F329B32B0700DF22E5 /* test+ext.swift in Sources */,
+				77AA71AE29B2FB62004BD797 /* AppDelegate.swift in Sources */,
+				771FC5F129B32B0700DF22E5 /* MainController.swift in Sources */,
+				771FC5ED29B32AF100DF22E5 /* LEDSDKCaller.swift in Sources */,
+				771FC5F229B32B0700DF22E5 /* OTAUpdateController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77AA71B829B2FB62004BD797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77AA71B929B2FB62004BD797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77AA71BC29B2FB62004BD797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77AA71BD29B2FB62004BD797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77AA71BF29B2FB62004BD797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTCVY8XN4Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LEDSDKDemo/SDK",
+					"$(PROJECT_DIR)/LEDSDKDemo/SDK/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LEDSDKDemo/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = bluetooth;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boAt.hearables123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77AA71C029B2FB62004BD797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTCVY8XN4Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LEDSDKDemo/SDK",
+					"$(PROJECT_DIR)/LEDSDKDemo/SDK/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LEDSDKDemo/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = bluetooth;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boAt.hearables123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77AA71A529B2FB62004BD797 /* Build configuration list for PBXProject "LEDSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AA71BC29B2FB62004BD797 /* Debug */,
+				77AA71BD29B2FB62004BD797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77AA71BE29B2FB62004BD797 /* Build configuration list for PBXNativeTarget "LEDSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AA71BF29B2FB62004BD797 /* Debug */,
+				77AA71C029B2FB62004BD797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77AA71A229B2FB62004BD797 /* Project object */;
+}
